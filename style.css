@@ -35,19 +35,19 @@ p {
   font-size: 20px;
 }
 
-h2{
+h2 {
   color: DarkOliveGreen;
   font-size: 25px;
   font-weight: bold;
 }
 
-h3{
+h3 {
   color: gray;
   font-size: 20px;
   font-weight: normal;
 }
 
-h4{
+h4 {
   color: black;
   font-size: 15px;
   font-weight: bold;
@@ -57,6 +57,14 @@ li {
   margin-bottom: 10px;
 }
 
-worklink a:hover { 
-	top: 2px;
+a {
+  color: gray;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover { 
+	font-weight: bold;
+    color: DarkOliveGreen;
 }
